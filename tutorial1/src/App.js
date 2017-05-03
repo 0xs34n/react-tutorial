@@ -1,19 +1,37 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 class App extends Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      count: 0
+    }
+
+    this.increment = this.increment.bind(this);
+    this.decrement = this.decrement.bind(this);
+  }
+
+  increment() {
+    this.setState({
+      count: this.state.count + 1
+    })
+  }
+
+  decrement() {
+    this.setState({
+      count: this.state.count - 1
+    })
+  }
+
   render() {
     return (
-      <div className="App">
-        <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React</h2>
-        </div>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
-      </div>
+       <div>
+          <div className="count"> Count: {this.state.count}</div>
+          <button onClick={this.increment}> Increment </button>
+          <button onClick={this.decrement}> Decrement </button>
+       </div>
     );
   }
 }
