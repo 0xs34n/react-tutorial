@@ -8,9 +8,11 @@
 
 `npm i -g create-react-app`
 
-If you are getting permission errors, run the command with `sudo`
+If you are getting permission errors, run the command with `sudo` 
 
 `create-react-app my-app-name`
+
+`cd my-app-name`
 
 ## 3. Running the app
 
