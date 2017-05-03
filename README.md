@@ -38,5 +38,24 @@ class App extends Component {
 }
 ```
 
-this will give you the helper functions, `render()` and other lifecycle methods like `componentDidMount`, `componentWillMount` and other lifecycle methods.
+This will give you the helper functions, such as `render()`.
+
+Also lifecycle methods like `componentDidMount`, `componentWillMount` details in another tutorial.
+
+### c. render function
+
+```js
+class App extends Component {
+  render() {
+    return (
+      <div> Hello World </div>
+    )
+  }
+}
+
+```
+
+## 3. Adding functionality
+
+
 
