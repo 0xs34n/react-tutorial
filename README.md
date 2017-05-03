@@ -8,6 +8,8 @@
 
 `npm i -g create-react-app`
 
+If you are getting permission errors, run the command with `sudo`
+
 `create-react-app my-app-name`
 
 ## 3. Running the app
@@ -72,7 +74,15 @@ renders the HTML.
    </div>
 ```
 
+in the `return()` of the `render()` function.
+
 ### b. Increment funciton
+
+```js
+
+
+
+```
 
 ### c. decrement function
 
