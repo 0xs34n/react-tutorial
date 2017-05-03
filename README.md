@@ -1,6 +1,6 @@
 # Pre-requisites
 
-## 1. Install Node.js with NPM
+## 1. Install Node.js and NPM
 
 [Node.js](https://nodejs.org/en/download/current/)
 
