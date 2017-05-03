@@ -16,10 +16,12 @@
 
 ## 4. Add semantic ui and styles
 
+`index.html`
 ```html
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.10/semantic.min.css" />
 ```
 
+`App.css`
 ```css
 /* Styles go here */
 
