@@ -24,31 +24,19 @@ A react component can be thought of a user interface component in your applicati
 
 ## 2. First Component
 
-```js
+### a. import react 
 
 ```
+import React, { Component } from 'react';
+```
 
+### b. inherit the Component class from react
 
+```js
+class App extends Component {
+  
+}
+```
 
+this will give you the helper functions, `render()` and other lifecycle methods like `componentDidMount`, `componentWillMount` and other lifecycle methods.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-w
