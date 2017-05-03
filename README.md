@@ -43,7 +43,6 @@ This will give you the helper functions, such as `render()`.
 Also lifecycle methods like `componentDidMount`, `componentWillMount` details in another tutorial.
 
 ### c. render function
-
 ```js
 class App extends Component {
   render() {
@@ -52,8 +51,9 @@ class App extends Component {
     )
   }
 }
-
 ```
+
+renders the HTML.
 
 ## 3. State
 
