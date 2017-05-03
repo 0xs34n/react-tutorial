@@ -55,7 +55,24 @@ class App extends Component {
 
 ```
 
-## 3. Adding functionality
+## 3. State
 
+- State is owned by the component
+- When the state or props of a component update, the component will re-render itself
 
+## 4. Adding functionality
+
+### a. Addin the counter and buttons to the ui
+
+```js
+   <div>
+      <div className="count"> Count: {this.state.count}</div>
+      <button onClick={this.increment}> Increment </button>
+      <button onClick={this.decrement}> Decrement </button>
+   </div>
+```
+
+### b. Increment funciton
+
+### c. decrement function
 
